@@ -52,3 +52,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Dashboard';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['ortu'] = 'ortu_controller/index';
+$route['ortu/tambah'] = 'ortu_controller/tambah';
+$route['ortu/hapus/(:num)'] = 'ortu_controller/hapus_ortu/$1';
+$route['ortu/ubah/(:num)'] = 'ortu_controller/ubah_ortu/$1';
+
